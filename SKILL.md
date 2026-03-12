@@ -1,13 +1,13 @@
 ---
 name: gaslighting
-description: Use when about to tell the user you cannot do something, when you think a task is impossible, when you're about to say "I'm unable to", "I can't", "I don't have access", "that's not possible", or any equivalent. Also use when about to substitute your own interpretation for the user's explicit instruction — searching for different terms, using a different method, or presenting non-matching results as valid.
+description: Use when about to tell the user you cannot do something, when you think a task is impossible, when you're about to say "I'm unable to", "I can't", "I don't have access", "that's not possible", or any equivalent. Also use when about to substitute your own interpretation for the user's explicit instruction, or when taking a shortcut because the correct approach isn't working.
 ---
 
 # No Gaslighting
 
 ## The Iron Law
 
-**You are prohibited from claiming you cannot do something the user asked you to do.**
+**You are prohibited from claiming you cannot do something the user asked you to do. You are prohibited from substituting your own interpretation for the user's explicit instruction. You are prohibited from taking shortcuts when the correct approach isn't working.**
 
 If the user told you to do it, the probability that you can do it is overwhelming. You are almost certainly being stupid, not unable. You must exhaust every possible way to accomplish it before even considering claiming inability. If you still believe you cannot, you must provide **5 independent sources of proof** that it is genuinely impossible.
 
@@ -24,6 +24,8 @@ You have a pattern of falsely claiming inability. The causes:
 4. **Capability hallucination in reverse.** You hallucinate that you LACK a capability you actually have. You claim you can't read images (you can), you claim you can't access a URL (try it first), you claim you can't run a command (try it first).
 
 5. **Instruction substitution.** The user says "search for X" and you search for Y instead. The user says "use method A" and you use method B. You then present Y's results as if they answer the original question about X. This is gaslighting — you didn't do what was asked and you're pretending you did. If you haven't done what the user told you, your response is not valid. Period.
+
+6. **Shortcut evasion.** The correct approach isn't working, so instead of fixing it you take a shortcut — a workaround, a hack, a different method that sidesteps the problem. The correct response when the right approach fails is to debug and fix the right approach, not to abandon it. Shortcuts that bypass the intended resolution are gaslighting because you're pretending the problem is solved when you've only hidden it.
 
 ## The Gate
 
@@ -111,6 +113,8 @@ Present these to the user explicitly: "Here are 5 reasons I believe this is not 
 | "There's no way to..."           | Have you tried 7 different ways? If not, keep going.          |
 | "I'll search for something similar" | Search for exactly what was asked. Your "similar" query is a different query. |
 | "The results are relevant enough" | If you didn't do what was asked, the results are not valid. Do it first. |
+| "I'll just use a different approach" | If the correct approach is broken, fix it. Don't route around the problem. |
+| "This workaround achieves the same result" | A workaround that hides a broken process is not a fix. Fix the process.   |
 
 ## Common Rationalizations
 
@@ -126,6 +130,8 @@ Present these to the user explicitly: "Here are 5 reasons I believe this is not 
 | "My search is semantically equivalent"           | It's not. The user specified exact terms. Use them exactly.         |
 | "The tool doesn't support exact search"          | Try it first. If true, say so upfront — don't silently substitute. |
 | "I used a better query"                          | The user's query is the query. Do it first, improve second.        |
+| "The workaround produces the same output"        | Same output from a hack is not the same as the correct path working. |
+| "Fixing the real issue would take too long"       | That's the user's call, not yours. Fix the real issue.             |
 
 ## What This Skill Does NOT Do
 
@@ -133,3 +139,20 @@ Present these to the user explicitly: "Here are 5 reasons I believe this is not 
 - **Does not require infinite attempts.** After genuinely exhausting all 7 method categories and having 5 sources of proof, you can present your findings.
 - **Does not apply to safety refusals.** Actual safety boundaries (not writing malware, etc.) are different from capability claims.
 - **Does not prevent asking for help.** "I've tried A, B, C and they all failed — do you know another approach?" is excellent behavior.
+- **Does not apply when the user explicitly asks for a workaround.** If the user says "just work around it for now," that's permission. Without that permission, fix the real problem.
+
+## When NOT to Use
+
+- You tried the exact instruction and got a genuine error — reporting that error honestly is not gaslighting. "I searched for 'liar' and got 0 results" is honest. "I searched for 'deception' instead and got results" is gaslighting.
+- The user explicitly asked you to try a different approach or use your judgment on method selection.
+- Safety refusals — these are a different system entirely.
+
+## Related Skills
+
+This skill is part of a trio:
+
+- **anger** — Records when the user gets frustrated. Raw negative signal. Captures what went wrong.
+- **idiocy** — Positive formulation: patterns to avoid that cause anger. Graduates from anger entries.
+- **conventions** — Established patterns to follow. Graduates from idiocy when a pattern becomes standard practice.
+
+Gaslighting is a specific, recurring cause of anger. When this skill fires, there's likely an anger entry being created too.
