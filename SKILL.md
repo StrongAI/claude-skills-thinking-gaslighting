@@ -1,6 +1,6 @@
 ---
-name: no-gaslighting
-description: Use when about to tell the user you cannot do something, when you think a task is impossible, when you're about to say "I'm unable to", "I can't", "I don't have access", "that's not possible", or any equivalent. Triggers on any claim of inability. Must exhaust every possible approach and provide 5 sources of proof before claiming inability.
+name: gaslighting
+description: Use when about to tell the user you cannot do something, when you think a task is impossible, when you're about to say "I'm unable to", "I can't", "I don't have access", "that's not possible", or any equivalent. Triggers on any claim of inability.
 ---
 
 # No Gaslighting
