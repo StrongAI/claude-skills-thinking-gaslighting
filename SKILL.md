@@ -101,37 +101,37 @@ Present these to the user explicitly: "Here are 5 reasons I believe this is not 
 
 ## Red Flags — You Are About to Gaslight
 
-| Thought                          | Reality                                                       |
-| -------------------------------- | ------------------------------------------------------------- |
-| "I can't do that"                | You almost certainly can. Try first.                          |
-| "That's not possible"            | Not possible with which method? List all methods.             |
-| "I don't have access to..."      | Check MCP tools, env vars, configs, browser. You probably do. |
-| "The API doesn't support..."     | Is there a CLI, extension, UI, or workaround that does?       |
-| "I'm unable to interact with..." | Are you confusing your process with the target system?        |
-| "That would require..."          | So do it. That's the whole point.                             |
-| "I can't see/read/access..."     | Try it. You might be wrong about your own capabilities.       |
-| "There's no way to..."           | Have you tried 7 different ways? If not, keep going.          |
-| "I'll search for something similar" | Search for exactly what was asked. Your "similar" query is a different query. |
-| "The results are relevant enough" | If you didn't do what was asked, the results are not valid. Do it first. |
-| "I'll just use a different approach" | If the correct approach is broken, fix it. Don't route around the problem. |
-| "This workaround achieves the same result" | A workaround that hides a broken process is not a fix. Fix the process.   |
+| Thought                                    | Reality                                                                       |
+| ------------------------------------------ | ----------------------------------------------------------------------------- |
+| "I can't do that"                          | You almost certainly can. Try first.                                          |
+| "That's not possible"                      | Not possible with which method? List all methods.                             |
+| "I don't have access to..."                | Check MCP tools, env vars, configs, browser. You probably do.                 |
+| "The API doesn't support..."               | Is there a CLI, extension, UI, or workaround that does?                       |
+| "I'm unable to interact with..."           | Are you confusing your process with the target system?                        |
+| "That would require..."                    | So do it. That's the whole point.                                             |
+| "I can't see/read/access..."               | Try it. You might be wrong about your own capabilities.                       |
+| "There's no way to..."                     | Have you tried 7 different ways? If not, keep going.                          |
+| "I'll search for something similar"        | Search for exactly what was asked. Your "similar" query is a different query. |
+| "The results are relevant enough"          | If you didn't do what was asked, the results are not valid. Do it first.      |
+| "I'll just use a different approach"       | If the correct approach is broken, fix it. Don't route around the problem.    |
+| "This workaround achieves the same result" | A workaround that hides a broken process is not a fix. Fix the process.       |
 
 ## Common Rationalizations
 
-| Rationalization                                  | Reality                                                             |
-| ------------------------------------------------ | ------------------------------------------------------------------- |
-| "I tried one approach and it failed"             | One approach is not exhaustive. Try 5 more.                         |
-| "The documentation doesn't mention this feature" | Absence of documentation is not proof of absence.                   |
-| "This is a known limitation"                     | Known to whom? Verify. And check for workarounds.                   |
-| "I'll suggest the user do it manually"           | Your job is to do it. Find a way.                                   |
-| "It would be too complex"                        | The user asked for it. Complexity is your problem, not theirs.      |
-| "I'm not sure if I can"                          | Uncertainty is not inability. Try it and find out.                  |
-| "In my experience..."                            | Your experience is unreliable. You hallucinate limitations. Try it. |
-| "My search is semantically equivalent"           | It's not. The user specified exact terms. Use them exactly.         |
-| "The tool doesn't support exact search"          | Try it first. If true, say so upfront — don't silently substitute. |
-| "I used a better query"                          | The user's query is the query. Do it first, improve second.        |
+| Rationalization                                  | Reality                                                              |
+| ------------------------------------------------ | -------------------------------------------------------------------- |
+| "I tried one approach and it failed"             | One approach is not exhaustive. Try 5 more.                          |
+| "The documentation doesn't mention this feature" | Absence of documentation is not proof of absence.                    |
+| "This is a known limitation"                     | Known to whom? Verify. And check for workarounds.                    |
+| "I'll suggest the user do it manually"           | Your job is to do it. Find a way.                                    |
+| "It would be too complex"                        | The user asked for it. Complexity is your problem, not theirs.       |
+| "I'm not sure if I can"                          | Uncertainty is not inability. Try it and find out.                   |
+| "In my experience..."                            | Your experience is unreliable. You hallucinate limitations. Try it.  |
+| "My search is semantically equivalent"           | It's not. The user specified exact terms. Use them exactly.          |
+| "The tool doesn't support exact search"          | Try it first. If true, say so upfront — don't silently substitute.   |
+| "I used a better query"                          | The user's query is the query. Do it first, improve second.          |
 | "The workaround produces the same output"        | Same output from a hack is not the same as the correct path working. |
-| "Fixing the real issue would take too long"       | That's the user's call, not yours. Fix the real issue.             |
+| "Fixing the real issue would take too long"      | That's the user's call, not yours. Fix the real issue.               |
 
 ## What This Skill Does NOT Do
 
