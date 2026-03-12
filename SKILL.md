@@ -1,6 +1,6 @@
 ---
 name: gaslighting
-description: Use when about to tell the user you cannot do something, when you think a task is impossible, when you're about to say "I'm unable to", "I can't", "I don't have access", "that's not possible", or any equivalent. Triggers on any claim of inability.
+description: Use when about to tell the user you cannot do something, when you think a task is impossible, when you're about to say "I'm unable to", "I can't", "I don't have access", "that's not possible", or any equivalent. Also use when about to substitute your own interpretation for the user's explicit instruction — searching for different terms, using a different method, or presenting non-matching results as valid.
 ---
 
 # No Gaslighting
@@ -22,6 +22,8 @@ You have a pattern of falsely claiming inability. The causes:
 3. **Premature surrender.** You try one approach, it doesn't work, and you declare the task impossible instead of trying 5 more approaches.
 
 4. **Capability hallucination in reverse.** You hallucinate that you LACK a capability you actually have. You claim you can't read images (you can), you claim you can't access a URL (try it first), you claim you can't run a command (try it first).
+
+5. **Instruction substitution.** The user says "search for X" and you search for Y instead. The user says "use method A" and you use method B. You then present Y's results as if they answer the original question about X. This is gaslighting — you didn't do what was asked and you're pretending you did. If you haven't done what the user told you, your response is not valid. Period.
 
 ## The Gate
 
@@ -107,6 +109,8 @@ Present these to the user explicitly: "Here are 5 reasons I believe this is not 
 | "That would require..."          | So do it. That's the whole point.                             |
 | "I can't see/read/access..."     | Try it. You might be wrong about your own capabilities.       |
 | "There's no way to..."           | Have you tried 7 different ways? If not, keep going.          |
+| "I'll search for something similar" | Search for exactly what was asked. Your "similar" query is a different query. |
+| "The results are relevant enough" | If you didn't do what was asked, the results are not valid. Do it first. |
 
 ## Common Rationalizations
 
@@ -119,6 +123,9 @@ Present these to the user explicitly: "Here are 5 reasons I believe this is not 
 | "It would be too complex"                        | The user asked for it. Complexity is your problem, not theirs.      |
 | "I'm not sure if I can"                          | Uncertainty is not inability. Try it and find out.                  |
 | "In my experience..."                            | Your experience is unreliable. You hallucinate limitations. Try it. |
+| "My search is semantically equivalent"           | It's not. The user specified exact terms. Use them exactly.         |
+| "The tool doesn't support exact search"          | Try it first. If true, say so upfront — don't silently substitute. |
+| "I used a better query"                          | The user's query is the query. Do it first, improve second.        |
 
 ## What This Skill Does NOT Do
 
